@@ -84,12 +84,12 @@
 @media screen and (max-width:400px){
       #firstOption{
             border-bottom: 0.25px solid  #a3a097;
-            padding-top: 4vh;
+            padding-top: 6vh;
             height:25vh;
       }
       #secondOption{
             border-top: 0.25px solid  #a3a097;
-            padding-top: 4vh;
+            padding-top: 6vh; 
             height:25vh;
       }
       #footer{
