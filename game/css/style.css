@@ -39,6 +39,21 @@
             width:110px;
             height:50px;
       }
+      a:active{
+            color: #333 !important;
+      }
+      a:link{
+            color: #333 !important;
+      }
+      a:hover{
+            color: #333 !important;
+      }
+      a:visited{
+            color: #333 !important;
+      }
+      .fa-github{
+            font-size: 16px !important;
+      }
 }
 @media screen and (max-width:800px){
       #firstOption{
@@ -58,6 +73,7 @@
             margin-top: 3vh;
       }
       #footer{
+            color: #a3a097;
             margin-left: 20px;
             margin-right: 20px;
             font-size: 11px;
@@ -80,6 +96,21 @@
             width:110px;
             height:50px;
       }
+      a:active{
+            color: #a3a097 !important;
+      }
+      a:link{
+            color: #a3a097 !important;
+      }
+      a:hover{
+            color: #a3a097 !important;
+      }
+      a:visited{
+            color: #a3a097 !important;
+      }
+      .fa-github{
+            font-size: 12px !important;
+      }
 }
 @media screen and (max-width:400px){
       #firstOption{
@@ -89,7 +120,7 @@
       }
       #secondOption{
             border-top: 0.25px solid  #a3a097;
-            padding-top: 6vh; 
+            padding-top: 6vh;
             height:25vh;
       }
       #footer{
@@ -184,19 +215,15 @@ button:hover{
       font-weight: bold !important;
 }
 a:active{
-      color: #333 !important;
       text-decoration: none !important;
 }
 a:link{
-      color: #333 !important;
       text-decoration: none !important;
 }
 a:hover{
-      color: #333 !important;
       text-decoration: none !important;
 }
 a:visited{
-      color: #333 !important;
       text-decoration: none !important;
 }
 #repoLink:hover{

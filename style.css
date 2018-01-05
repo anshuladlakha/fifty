@@ -23,6 +23,21 @@
             margin-top: 25vh !important;
             font-size: 35px !important;
       }
+      a:active{
+            color: #333 !important;
+      }
+      a:link{
+            color: #333 !important;
+      }
+      a:hover{
+            color: #333 !important;
+      }
+      a:visited{
+            color: #333 !important;
+      }
+      .fa-github{
+            font-size: 16px !important;
+      }
 
 }
 @media screen and (max-width:800px){
@@ -31,6 +46,7 @@
             margin-top: 7vh;
       }
       #footer{
+            color: #a3a097;
             margin-left: 20px;
             margin-right: 20px;
             font-size: 11px;
@@ -49,6 +65,21 @@
             width:80px;
             height:50px;
             font-size: 20px !important;
+      }
+      a:active{
+            color: #a3a097 !important;
+      }
+      a:link{
+            color: #a3a097 !important;
+      }
+      a:hover{
+            color: #a3a097 !important;
+      }
+      a:visited{
+            color: #a3a097 !important;
+      }
+      .fa-github{
+            font-size: 12px !important;
       }
 
 }
@@ -75,6 +106,11 @@
       }
 
 }
+@media screen and (max-width:300px){
+      h1{
+            font-size: 20px !important;
+      }
+}
 body {
       background-color: #0f0f0f !important;
 }
@@ -97,7 +133,7 @@ h4{
 }
 button{
       text-align: center;
-      background-color: #141312 !important;
+      background-color: #1c1a18 !important;
       font-family: "Open Sans";
       border: 0 !important;
       border-radius: 7% !important;
@@ -107,26 +143,22 @@ button{
       margin-right: 1vw !important;
 }
 button:hover{
-      background-color: #1c1a18 !important;
+      background-color: #2d2a27 !important;
 }
 #footer{
       font-family: "Open Sans";
       font-weight: bold !important;
 }
 a:active{
-      color: #333 !important;
       text-decoration: none !important;
 }
 a:link{
-      color: #333 !important;
       text-decoration: none !important;
 }
 a:hover{
-      color: #333 !important;
       text-decoration: none !important;
 }
 a:visited{
-      color: #333 !important;
       text-decoration: none !important;
 }
 #repoLink:hover{
