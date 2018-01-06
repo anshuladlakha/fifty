@@ -205,10 +205,13 @@ button:hover{
 }
 .largeBtns{
       text-align: center;
-      background-color: #141312 !important;
+      background-color: #1c1a18 !important;
       font-family: "Open Sans";
       border: 0 !important;
       border-radius: 7% !important;
+}
+.largeBtns:hover{
+      background-color: #2d2a27 !important;      
 }
 #footer{
       font-family: "Open Sans";
